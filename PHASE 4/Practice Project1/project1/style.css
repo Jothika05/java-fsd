@@ -1,0 +1,79 @@
+:root{
+    --yellow:#FBDF07;
+    --pink:#F94892;
+    --BLUE:#89CFFD;
+    --Orange:#FF7F3F;
+}
+
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menuheading,#locheading,#conheading,#aboutheading{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    font-size: 2.5em;
+    color: #F94892;
+    display: flex;
+    justify-content: center;
+}
+footer{
+background-color: rgb(53, 52, 52);
+color: var(--yellow);
+padding:.25em 1em ;
+}
+ 
+
+.social-menu ul{
+    display: flex; 
+    padding: 0;
+}
+.social-menu ul li{
+ list-style: none;
+ display: inline-block;
+ margin:  0 15px;
+}
+.social-menu ul li .fab{
+    font-size: 25px;
+    line-height: 40px;
+    transition: .3s;
+    color: #000;
+}
+.social-menu ul li .fab:hover{
+    color:#fff;
+}
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+
+} 
+
+.social-menu ul li a:hover{
+    transform: translate(0,-10%);
+}
+.social-menu ul li:nth-child(1) a:hover{
+    background-color:var(--Orange);
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:var(--BLUE);
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color:var(--pink);
+}
+
+
+
+
+
+
+
+
+
+ 
