@@ -1,0 +1,74 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Abdul ",
+      "lastName": "Basith",
+      "email": "baaji2@gmail.com",
+      "mobile": "8755223642",
+      "salary": "60000"
+    },
+    {
+      "id": 2,
+      "firstName": "Arul ",
+      "lastName": "jothi",
+      "email": "arul@gmail.com",
+      "mobile": "9856631214",
+      "salary": "100000"
+    },
+    {
+      "id": 3,
+      "firstName": "Jack",
+      "lastName": "Daneil",
+      "email": "daniel@gmail.com",
+      "mobile": "9364134463",
+      "salary": "550000"
+    },
+    {
+      "id": 4,
+      "firstName": "Mohammed",
+      "lastName": "Rifan",
+      "email": "rifan@gmail.com",
+      "mobile": "8523242446",
+      "salary": "50000"
+    },
+    {
+      "id": 5,
+      "firstName": "Aruna",
+      "lastName": "K",
+      "email": "aruna@gmail.com",
+      "mobile": "9678457321",
+      "salary": "300000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "ABDUL KADHAR N",
+      "email": "baaji@gmail.com",
+      "password": "123456",
+      "mobile": "9788652145",
+      "id": 1
+    },
+    {
+      "fullname": "ARUL KUMARAN",
+      "email": "arul@gmail.com",
+      "password": "123456",
+      "mobile": "9783482214",
+      "id": 2
+    },
+    {
+      "fullname": "jack daniel",
+      "email": "daniel@gmail.com",
+      "password": "123456",
+      "mobile": "9677362373",
+      "id": 3
+    },
+    {
+      "fullname": "dharsan",
+      "email": "dharsan@gmail.com",
+      "password": "123456",
+      "mobile": "6794603486",
+      "id": 4
+    }
+  ]
+}

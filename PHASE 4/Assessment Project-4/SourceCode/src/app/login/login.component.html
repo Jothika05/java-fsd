@@ -1,0 +1,77 @@
+<!--<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1>Login</h1>
+          <h6>Please enter email && passwrod!!</h6>
+        </div>
+        <form>
+          <form [formGroup]="loginForm" (ngSubmit)="login()">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                formControlName="email"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                formControlName="password"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+          <a routerLink="/signup">New user? Click to signup</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<body>
+  <div class="center">
+    <h1>Login</h1>
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <div class="txt_field">
+        <input
+          type="email"
+          class="form-control"
+          formControlName="email"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="Email"
+        />
+        <span></span>
+        <label for="exampleInputEmail1" class="form-label"></label>
+      </div>
+      <div class="txt_field">
+        <input
+          type="password"
+          class="form-control"
+          formControlName="password"
+          id="exampleInputPassword1"
+          placeholder="Password"
+        />
+        <span></span>
+        <label for="exampleInputPassword1" class="form-label"></label>
+      </div>
+      <input type="submit" value="Login" />
+      <div class="signup_link">
+        Not a member? <a routerLink="/signup">Signup</a>
+      </div>
+    </form>
+  </div>
+</body>
+
