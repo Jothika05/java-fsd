@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test-Suite">
+    <test name="Flipkarttest">
+        <classes>
+            <class name="AutomateEcommerce.AutomateEcommerce.Ecommerce">
+            </class>
+        </classes>
+    </test>
+</suite>
